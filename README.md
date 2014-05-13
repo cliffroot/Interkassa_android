@@ -13,12 +13,13 @@ Interkassa_android
 
 Interkassa.setCurrentAmount(200.d); </i>
 
-Додати в ваш Manifest файл рядки
+Додати в ваш Manifest файл рядки:
 <i>
-<activity
+
+&lt;activity
     android:name="com.interkassa.helpers.WebViewActivity_"
-    android:label="@string/app_name" >
-</activity>
+    android:label="@string/app_name" &gt;
+&lt;/activity&gt;
 </i>
 
 Все! Ви готові приймати платежі в вашу касу в Interkassa.
